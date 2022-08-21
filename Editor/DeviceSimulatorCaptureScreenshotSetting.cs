@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Kogane.Internal
 {
-    [FilePath( "UserSettings/DeviceSimulatorCaptureScreenshot.asset", FilePathAttribute.Location.ProjectFolder )]
+    [FilePath( "UserSettings/Kogane/DeviceSimulatorCaptureScreenshot.asset", FilePathAttribute.Location.ProjectFolder )]
     internal sealed class DeviceSimulatorCaptureScreenshotSetting : ScriptableSingleton<DeviceSimulatorCaptureScreenshotSetting>
     {
         [SerializeField] private string m_directoryName  = "DeviceSimulatorCaptureScreenshot";
